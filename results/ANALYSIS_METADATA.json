@@ -1,0 +1,45 @@
+{
+  "analysis": "Random Forest Top-5/Top-7/Top-10 with age-sex adjustment under 10x5 CV",
+  "screen": "all 793 proteins; two-sided MWU p < 0.05 AND |Cohen d| >= 0.8; no healthy-control protein exclusion",
+  "candidate_n": 22,
+  "covariate_adjustment": {
+    "included": [
+      "age_visit_years",
+      "sex_male"
+    ],
+    "duration_included": false,
+    "covariates_not_counted_as_panel_proteins": true
+  },
+  "cohort": {
+    "als_first_visit": 43,
+    "binary_n": 32,
+    "fast": 10,
+    "slow": 22,
+    "intermediate_for_cpr": 11
+  },
+  "rf_parameters": {
+    "n_estimators": 100,
+    "max_depth": 5,
+    "min_samples_split": 5,
+    "min_samples_leaf": 2,
+    "class_weight": {
+      "0": 1.0,
+      "1": 3.0
+    },
+    "random_state": 42,
+    "n_jobs": 1
+  },
+  "ranking": "full-cohort age/sex-adjusted Gini ranking; only protein importances determine Top-5/Top-7/Top-10 membership, while age and sex remain adjustment covariates outside panel counts",
+  "cv": {
+    "repeats": 10,
+    "folds": 5,
+    "seed": 42,
+    "threshold": "inner-CV Youden within each outer training set",
+    "participant_vote_tie_rule": "mean probability-minus-threshold margin; Fast if mean margin > 0, otherwise Slow"
+  },
+  "caveat": "Full-cohort screening and protein ranking are development-stage locks; repeated CV estimates internal performance conditional on those locks.",
+  "source_study": {
+    "accession": "PXD024219",
+    "publication_doi": "10.3389/fnins.2021.642324"
+  }
+}

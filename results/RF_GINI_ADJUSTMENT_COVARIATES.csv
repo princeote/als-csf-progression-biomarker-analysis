@@ -1,0 +1,3 @@
+Feature,RF_Gini_Importance,RF_Gini_Share_All_Features,Role
+age_visit_years,0.005754636706592978,0.005754636706592978,adjustment_covariate
+sex_male,0.0,0.0,adjustment_covariate

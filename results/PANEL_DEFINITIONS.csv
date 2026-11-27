@@ -1,0 +1,23 @@
+panel_size,panel_rank,Protein,Short_Name
+5,1,P0_Chitotriosidase-1,CHIT1
+5,2,P712_Zinc finger CCCH domain-containing protein 3,ZC3H3
+5,3,P199_Isoform 2 of Contactin-1,CNTN1
+5,4,P687_Receptor-type tyrosine-protein phosphatase F,PTPRF
+5,5,P563_Protein ANKUB1,ANKUB1
+7,1,P0_Chitotriosidase-1,CHIT1
+7,2,P712_Zinc finger CCCH domain-containing protein 3,ZC3H3
+7,3,P199_Isoform 2 of Contactin-1,CNTN1
+7,4,P687_Receptor-type tyrosine-protein phosphatase F,PTPRF
+7,5,P563_Protein ANKUB1,ANKUB1
+7,6,P5_Lysozyme C,LYZ
+7,7,P561_Cocaine- and amphetamine-regulated transcript protein,CARTPT
+10,1,P0_Chitotriosidase-1,CHIT1
+10,2,P712_Zinc finger CCCH domain-containing protein 3,ZC3H3
+10,3,P199_Isoform 2 of Contactin-1,CNTN1
+10,4,P687_Receptor-type tyrosine-protein phosphatase F,PTPRF
+10,5,P563_Protein ANKUB1,ANKUB1
+10,6,P5_Lysozyme C,LYZ
+10,7,P561_Cocaine- and amphetamine-regulated transcript protein,CARTPT
+10,8,P705_Scavenger receptor cysteine-rich type 1 protein M130,CD163
+10,9,P28_Protein AMBP,AMBP
+10,10,P301_Semaphorin-7A,SEMA7A

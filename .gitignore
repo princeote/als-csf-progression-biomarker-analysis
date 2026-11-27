@@ -1,0 +1,30 @@
+# Keep cohort exports and private analysis runs outside the checkout.
+/data/
+/private/
+/private-results/
+clinData2.csv
+exprData.csv
+featData.csv
+*.rdata
+*.RData
+*.rds
+OOF_PREDICTIONS*.csv
+PATIENT_LEVEL_PREDICTIONS*.csv
+TIE_RESOLUTION_SUMMARY.csv
+TRAINING_ONLY_THRESHOLDS.csv
+TRAINING_ONLY_THRESHOLD_RESULTS*.csv
+
+# Python and LaTeX build products
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+/paper/main.pdf

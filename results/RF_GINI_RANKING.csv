@@ -1,0 +1,23 @@
+Protein,Short_Name,Panel_Membership,RF_Gini_Rank,RF_Gini_Importance,RF_Gini_Share,Top5,Top7,Top10
+P0_Chitotriosidase-1,CHIT1,"Top-5, Top-7, Top-10",1,0.0971439900584336,0.09770625405447922,True,True,True
+P712_Zinc finger CCCH domain-containing protein 3,ZC3H3,"Top-5, Top-7, Top-10",2,0.07669471022956713,0.07713861493456532,True,True,True
+P199_Isoform 2 of Contactin-1,CNTN1,"Top-5, Top-7, Top-10",3,0.0740478786513941,0.07447646364285049,True,True,True
+P687_Receptor-type tyrosine-protein phosphatase F,PTPRF,"Top-5, Top-7, Top-10",4,0.07393404106037328,0.07436196716620237,True,True,True
+P563_Protein ANKUB1,ANKUB1,"Top-5, Top-7, Top-10",5,0.05533076369698503,0.05565101507107219,True,True,True
+P5_Lysozyme C,LYZ,"Top-7, Top-10",6,0.05502006537237891,0.05533851844189311,False,True,True
+P561_Cocaine- and amphetamine-regulated transcript protein,CARTPT,"Top-7, Top-10",7,0.05492581243239727,0.05524371997115201,False,True,True
+P705_Scavenger receptor cysteine-rich type 1 protein M130,CD163,Top-10,8,0.05372400722648364,0.05403495878373979,False,False,True
+P28_Protein AMBP,AMBP,Top-10,9,0.0507260063670458,0.0510196056625474,False,False,True
+P301_Semaphorin-7A,SEMA7A,Top-10,10,0.04923422181475636,0.049519186744476765,False,False,True
+P431_Cadherin-15,CDH15,ranked candidate only,11,0.04708923075814944,0.04736178059927564,False,False,False
+P392_Inter-alpha-trypsin inhibitor heavy chain H5,ITIH5,ranked candidate only,12,0.04603052919753523,0.04629695133307993,False,False,False
+P508_4F2 cell-surface antigen heavy chain,SLC3A2,ranked candidate only,13,0.04434603539855374,0.04460270777794615,False,False,False
+P722_Collagen alpha-1(VI) chain,COL6A1,ranked candidate only,14,0.04061505842715512,0.04085013611994025,False,False,False
+"P248_Isoform 2 of Methionine--tRNA ligase, cytoplasmic",MARS1-2,ranked candidate only,15,0.03332423817897164,0.03351711701082129,False,False,False
+P59_Proenkephalin-A,PENK,ranked candidate only,16,0.025689006934137833,0.02583769347341364,False,False,False
+P170_Isoform 2 of Tenascin-R,TNR,ranked candidate only,17,0.02546786301719595,0.025615269587815268,False,False,False
+P652_Retinoic acid receptor responder protein 2,RARRES2,ranked candidate only,18,0.02223898351875811,0.02236770151493809,False,False,False
+"P215_Retinol binding protein 4, plasma, isoform CRA_b",RBP4,ranked candidate only,19,0.022212354306810234,0.02234091817459676,False,False,False
+P302_Isoform 2 of Semaphorin-7A,SEMA7A-2,ranked candidate only,20,0.01959467682831501,0.019708089724862533,False,False,False
+P331_Immunoglobulin heavy variable 6-1,IGHV6-1,ranked candidate only,21,0.014094858093586883,0.014176438346061884,False,False,False
+"P308_HLA class I histocompatibility antigen, A-68 alpha chain",HLA-A68,ranked candidate only,22,0.012761031724422658,0.012834891864269938,False,False,False
